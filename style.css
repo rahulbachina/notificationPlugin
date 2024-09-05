@@ -1,0 +1,19 @@
+.category-details,.category-available,.category-used{
+	display: flex;
+	justify-content: space-between;
+	align-items:baseline;
+}
+.category-available,.category-used{
+	gap: 5px;
+}
+.all-categories button{
+	position: relative;
+    	padding: 14px 25px;
+}
+span.dashicons.dashicons-yes.selected{
+    font-size: 30px;
+    position: absolute;
+    top: -7px;
+    right: 6px;
+	color:#000000;
+}

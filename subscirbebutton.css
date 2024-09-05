@@ -1,0 +1,8 @@
+.category_name_btn {
+    display: flex;
+    justify-content: space-between;
+}
+.category_name_btn p {
+	font-size: 40px;
+	font-weight:700;
+}

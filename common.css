@@ -1,0 +1,29 @@
+.cpen-limit-reached-popup{
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000063;
+}
+.popup-content{
+width: 330px;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 17px;
+    padding: 38px;
+    border: 2px solid orange;
+}
+.popup-close-button{
+	position: absolute;
+    top: -15px;
+    right: -12px;
+}
